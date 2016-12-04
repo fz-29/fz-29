@@ -556,3 +556,10 @@ iframe {
 .border-between > [class*='col-']:first-child:before {
  display: none;
 }
+
+.CarouselImg img {
+  width: auto;
+  height: 340px;
+  max-height: 340px;
+}
+
