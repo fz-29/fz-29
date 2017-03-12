@@ -130,17 +130,31 @@
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
-                            <div class="item">
-                                <h3 class="title">Research Engineer - <span class="place"><a href="">Vision & AI Lab, DTU </a></span><span class="year">(Jan 2016 - Current)</span></h3>
-                                <p>Working on deep learning models for robust visual feature representations.</p>
+                            <div id="workex-vair" class="item">
+                                <h3 class="title">Undergraduate Research Assistant<br>
+                                    <span class="place"><a href="">Vision & AI Lab, DTU</a></span><br><span class="year">Jan 2016 - Current</span>
+                                </h3>
+                                <p>Mentored by Dr.S.Indu and Prof. O.P Verma.
+                                    <br>
+                                    Working on deep learning models for robust visual feature representations.
+                                </p>
                             </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title">Backend Web Developer - <span class="place"><a href="http://ieeedtu.com/ieeedtu/">IEEE Student Chapter, DTU </a></span> <span class="year">(Jan 2016 - Current)</span></h3>
+                            <div id="workex-ieee" class="item">
+                                <h3 class="title">Backend Web Developer<br>
+                                    <span class="place"><a href="http://ieeedtu.com/ieeedtu/">IEEE Student Chapter, DTU </a></span><br><span class="year">Jan 2016 - Current</span>
+                                </h3>
                                 <p>Web Developer for IEEE‐DTU & Troika, Annual Tech‐fest DTU.</p>
                             </div><!--//item-->
-                            
-                            <div class="item">
-                                <h3 class="title">Autopilot Department - <span class="place"><a href="http://www.uasdtu.com/index.html">Unmanned Aerial Systems, DTU </a></span> <span class="year">(Sep 2014 - Aug 2015)</span></h3>
+                            <div id="workex-drdo" class="item">
+                                <h3 class="title">Trainee<br>
+                                    <span class="place"><a href="http://www.drdo.gov.in/drdo/labs1/SAG/English/indexnew.jsp?pg=about-lab.jsp">Scientific Analysis Group, DRDO, New Delhi</a></span><br><span class="year">Dec 2016 - Feb 2017</span>
+                                </h3>
+                                <p>Optimizing OpenMPI implementations of certain cryptanalysis algotrithms using Intel Parallel Studio.</p>
+                            </div><!--//item-->                            
+                            <div id="workex-uasdtu" class="item">
+                                <h3 class="title">Autopilot Systems Developer<br>
+                                    <span class="place"><a href="http://www.uasdtu.com/index.html">Unmanned Aerial Systems, DTU </a></span><br><span class="year">Sep 2014 - Aug 2015</span>
+                                </h3>
                                 <p>Designed and optimized system for accurate Air Drop, Camera Gimbal, UAV positioning Web App and onboard Geotagging of live feed from the UAV on Ardupilot library.</p>
                             </div><!--//item-->
                             
@@ -311,7 +325,7 @@
                             I'm an undergraduate student at <a data-toggle="modal" data-target="#DTUModal">Delhi Technological University</a>, New Delhi. Currently working in Vision & AI Research lab, DTU. I am also Web Developer and Instructor at IEEE-DTU chapter.
                             </p>
                             <p>
-                            Technology drives me since my childhood. Technology improves quality of life, facilitates an organisation to accomplish loads of work and generate great amount of revenue, & does task which humans cannot. I'm extremely passionate about intelligent systems powered by fundamental concepts of computer science and electrical engineering.
+                            Technology drives me since my childhood. Technology improves quality of life, facilitates an organisation to accomplish loads of work and generate great amount of revenue, & does task which humans cannot. I'm extremely passionate about intelligent systems powered by undamental concepts of computer science and electrical engineering.
                             </p>
                             <p>
                             My research interests include Deep Learning, Evolutionary Computing, Computer Vision and Internet of Things.
@@ -321,7 +335,7 @@
                 </section><!--//section-->
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">Places where I Contribute</h2>
+                        <h2 class="heading">Places where I Contribute Currently</h2>
                         <div class="content text-center">
                             <div class="row border-between" style="padding-left:20px; padding-right:20px" >
                                 <div class="col-sm-4" >
@@ -365,30 +379,36 @@
                <section class="latest section">
                     <div id="research" class="section-inner">
                         <h2 class="heading">Research Projects</h2>
-                        <div class="content">                                               
+                        <div class="content">                                          
                             <!--//item-->
-                            <hr class="divider">
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
-                                <img class="img-responsive project-image" src="images/projects/indoor.jpg" alt="Indoor Positioning System">
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                            <div class="item">
+                                <h3 class="title">Surveillance and Tracking &nbsp<span class="label label-theme">Computer Vision | Distributed Systems.</span></h3>
+                                <p class="summary">Object detection and tracking research has largely focussed on improving performance over contrained subspaces, largely restricted to single camera scope. Motivated by enhanced tracking needs in recent times, we worked on near-real time path retrieval over distributed geospaces.Used unsupervised deep learning techniques to generate compact component based feature descriptors.Deployed the same over a multinode Apache Spark cluster.Worked with the Spark Streaming module to obtain real-time processing.Obtained processing time of 10 ms for 300 queries using 6 component feature vectors over a multinode cluster. </p>
+                            </div>
+                            <div class="item">
                                     <h3 class="title"><a href="" target="_blank">Indoor Positioning System</a><span class="label label-theme">Research Project</span></h3>
                                     <p>
-                                        Developing effective Solution for Indoor Positioning of a node in a predefined indoor geo‐subspace. Comparing localization techniques used for positioning indoors and generalising their areas of usability by simula ng in an indoor geo‐fenced environment.
+                                        Developing effective Solution for Indoor Positioning of a node in a predefined indoor geo‐subspace. Comparing localization techniques used for positioning indoors and generalising their areas of usability by simulating in an indoor geo‐fenced environment.
                                     </p>
                                     <p>
                                         <!-- <a class="more-link" href="" target="_blank">
                                         <i class="fa fa-external-link"></i> </a> -->
-                                    </p>
-                                </div><!--//desc-->                          
+                                    </p>         
                             </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">Content Based Image Retrieval &nbsp<span class="label label-theme">Computer Vision</span></h3>
+                                <p class="summary">Minor course project for the semester of fall 2016(Our Team Top Scored with 180/200). I worked on hashcodes based generation of features for image classification. Fine tuned an alexnet after adding a latent layer for feature descriptor characterisation that was then fed into a  supervised multiclass classifier. 
+                                Trained the model on VOC 2012 dataset and studied the system performance by tweaking various paramters including hashcode vector lengths to analyse tradeoff between accuracy and computational complexity<br>Obtained a 72.8% mAP precision.</p>
+                            </div><!--//item-->
+                            
                             <div class="item">
                                 <h3 class="title"><a href="">Dappa</a> <span class="label label-theme">Computer Vision</span></h3>
                                 <p class="summary">Image Processing | Deep Learning
-                                Inspired by a research paper by Google Inc.,designed our own DCNN model to detect objects in video streams. Employed morphological operations and transformations for feed stabilization and preprocessing. Trained the model specifically for cars by obtaining CCTV feeds off the internet. Compared the model performance with more traditional cascading techniques.</p>
+                                    Inspired by a research paper by Google Inc.,designed our own DCNN model to detect objects in video streams. Employed morphological operations and transformations for feed stabilization and preprocessing. Trained the model specifically for cars by using a popular dataset hosted by UT-Austin and picking off CCTV feeds from the internet.Obtained Compared the model performance with more traditional cascading techniques.
                                 <!-- <p><a class="more-link" href="" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p> -->
                             </div><!--//item-->
+
                             <div class="item">
                                 <h3 class="title"><a href="">Sentiment Analysis on Hindi Text</a> <span class="label label-theme">NLP</span></h3>
                                 <p class="summary">This project employs natural language processing for tracking the mood of the public about a particular product or topic, which is written in Hindi Text. I have used Bag of Centroids model after KMean Clustering to obtain a advanced version of Bag of Words Model. Employed Google's revolutionary Word2Vec word embedding model to obtain vectors for Hindi words. The biggest challenge faced was generation of Hindi Labelled Dataset for supervised learning. Libraries used : Numpy, Scipy, Sklearn </p>
@@ -404,53 +424,82 @@
                         <h2 class="heading">Other Projects</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="">Online Stock Market Simulator</a> <span class="label label-theme">Finance & Database Management System</span></h3>
-                                <p class="summary">Developed a stock market simulator on Python, and deployed backend using Django framework in prduction environment.
+                                <h3 class="title"><a href="">SHAKTI - Safety from Harassment,  Kidnapping and eve Teasing Interface</a><br><span class="label label-theme">Hackathon First Prize</span></h3>
+                                <p class="summary">
+                                    A user application focussed on sending SOS messages without any cellular network at the point of distress. The applications employs Connectionless Datagram Packets to communicate distress/SOS messages to the near pears.
+
                                 <br>
-                                Technologies used : Python, Django, SQLite3, AngularJS</p>
-                                <p>
-                                    <a class="more-link" href="https://github.com/fz-29/bnb2017" target="_blank">
-                                    <i class="fa fa-external-link"></i>Django Source Code and Backend Algorithm</a>
+                                    <a class="more-link" href="https://drive.google.com/file/d/0B70uYSoUqAP2YUdRUWVTSTI3Qkk/view?usp=sharing" target="_blank">
+                                    <i class="fa fa-external-link"></i>Project Demo Video</a>
                                 </p>
                             </div><!--//item-->
+
+                            <div class="item">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
+                                <img class="img-responsive project-image" src="images/projects/mist.png" alt="MIST">
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="" target="_blank">Competitive Quizzing Platform MIST</a> <br><span class="label label-theme">PHP Development</span></h3>
+                                    <p>
+                                        A Web Application for developed for Online Quizzing Event - MIST - hosted by IEEE-DTU, focused on optimized multimedia delivery for a flicker‐free experience.
+                                        <strong> Enjoyed by 1,500 users, producing 65,900 page views </strong>. The application was in production for more than 1 week.
+                                    </p>
+                                     <p>
+                                    <a class="more-link" href="https://github.com/fz-29/QuizzingPortal-mist/blob/master/Analytics%20All%20Web%20Site%20Data%20Audience%20Overview%2020170126-20170210.pdf" target="_blank">
+                                    <i class="fa fa-external-link"></i>View Google Analytics Report</a>
+                                     <br>
+                                    <a class="more-link" href="https://github.com/fz-29/QuizzingPortal-mist" target="_blank">
+                                    <i class="fa fa-external-link"></i>Source Code</a>
+                                </p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title"><a href="">Online Stock Market Simulator</a> <br><span class="label label-theme">Finance & Django Development</span></h3>
+                                <p class="summary"> A Web Application Simulator for developed for Virtual Online Stockmarket - Bulls n Bears - hosted by IEEE-DTU. The application was in production for a span of 3 days.
+                                <br>
+                                </p>
+                                Technologies used : Python, Django, SQLite3, AngularJS</p>
+                                <p>
+                                    <a class="more-link" href="https://github.com/fz-29/bnb2017/blob/master/Analytics%20All%20Web%20Site%20Data%20Audience%20Overview%2020170204-20170211.pdf" target="_blank">
+                                    <i class="fa fa-external-link"></i>View Google Analytics Report</a>
+                                     <br>
+                                    <a class="more-link" href="https://github.com/fz-29/bnb2017" target="_blank">
+                                    <i class="fa fa-external-link"></i>Django Source Code and Backend</a>
+                                </p>
+                            </div><!--//item-->
+
+                            <div class="item">
+                                <h3 class="title">RaspMe-Home Automator <br> <span class="label label-theme">Internet of Things.</span></h3>
+                                <p class="summary">Minor course project for semester of Fall 2015. Obtained the Best Project Award. Developed a prototype to facilitate wireless mobile enabled control of appliances in domestic setting.Employed a multi-server architecture, where a global control server interacted with local servers hosted on a raspian system.A client side application was used to issue commands for manipulation of various devices characterised by binary signals.</p>
+                                <p>
+                                        <a class="more-link" href="https://github.com/fz-29/DressSocial" target="_blank">
+                                        <i class="fa fa-external-link"></i>Checkout GitHub Page</a>
+                                    </p>
+                            </div> 
 
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
                                 <img class="img-responsive project-image" src="images/projects/dressocial.jpg" alt="DressSocial">
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://github.com/fz-29/DressSocial" target="_blank">DressSocial</a></h3>
+                                    <h3 class="title"><a href="https://github.com/fz-29/DressSocial" target="_blank">DressSocial</a><br>
+                                    <span class="label label-theme">Hackathon First Prize @HackEnvision2016</span> <span class="label label-theme">Android & Django</span></h3>
                                     <p>
-                                        A consumer application for better management of Wardrobe and support smarter buying among customers with social platform. Supervised Machine Learning plays the backbone of the application, designed and trained our own Deep Convolution Neural Network model to classify clothes into 15 different categories to aid automated recognition.
+                                        Wardrobe manager and recommender consumer-end application to support smarter buying among customers with a social platform. Used a supervised classifier to characterize similarity of clothing in a wardrobe. Designed and trained our own Deep Convolution Neural Network model to classify clothes into 15 different categories to aid automated recognition. Grand prize winner at HackEnvision 2016.
                                     </p>
                                     <p>
                                         <a class="more-link" href="https://github.com/fz-29/DressSocial" target="_blank">
-                                        <i class="fa fa-external-link"></i>Check out GitHub Page</a>
-                                    </p>
-                                </div><!--//desc-->                          
-                            </div><!--//item--> 
-
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="" target="_blank">
-                                <img class="img-responsive project-image" src="images/projects/mist.png" alt="MIST">
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="" target="_blank">Competitive Quizzing Platform MIST</a></h3>
-                                    <p>
-                                        Responsive Web Application for Quizzing, focused on optimized multimedia delivery for a flicker‐free experience.                                        
-                                    </p>
-                                    <p>
-                                        <a class="more-link" href="http://xmist.ieeedtu.com/" target="_blank">
-                                        <i class="fa fa-external-link"></i>Click here for Live Site</a>
+                                        <i class="fa fa-external-link"></i>Checkout GitHub Page</a>
                                     </p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title"><a href="">Assignment Submission and Evaluation System</a> <span class="label label-theme">Database Management System</span></h3>
-                                <p class="summary">A PHP web application that allows ease of sharing tutorials and assignments by the instructor, notifies all the students enrolled for that particular course and allow them to upload their submissions online. The application focuses on ease of evaluation system for instructors. Application also caters the ease for admin, for tasks such as addition of more entities like Students, Teachers and Courses.
+                                <h3 class="title"><a href="">Assignment Submission and Evaluation System</a> <br> <span class="label label-theme">Database Management System</span></h3>
+                                <p class="summary">A PHP web application that allows ease of sharing tutorials and assignments by the instructor, notifies all the students enrolled for that particular course and allow them to upload their submissions online. The application focuses on ease of evaluation system for instructors. Application also caters the ease for admin, for tasks such as addition of more entities like Students, Teachers and Courses. Submitted as semester Database Systems Project.
 Technologies used : PHP, MySQL, Bootstrap, JQuery</p>
-                                <p><a class="more-link" href="https://github.com/fz-29/assignment-submission" target="_blank"><i class="fa fa-external-link"></i>Source Code</a></p>
+                                <p><a class="more-link" href="https://github.com/fz-29/assignment-submission" target="_blank"><i class="fa fa-external-link"></i>Checkout Github Page</a></p>
                             </div><!--//item-->
                             
                             <!-- <a class="btn btn-cta-secondary" href="">More on CoderWall <i class="fa fa-chevron-right"></i></a> -->
@@ -510,7 +559,7 @@ Technologies used : PHP, MySQL, Bootstrap, JQuery</p>
     <!-- <script>
         GitHubActivity.feed({ username: "fz-29", selector: "#feed",limit: 10});
     </script> -->    
-    <!-- custom js
+    <!-- custom js -->
     <script type="text/javascript" src="./src/main.js"></script>   
     </body>
 </html>
