@@ -93,6 +93,10 @@ a.btn-cta-secondary:hover,
   background: #3AAA64;
   font-size: 12px;
 }
+.label-theme-orange {
+  background: #fc7507;
+  font-size: 12px;
+}
 a.dotted-link {
   border-bottom: 1px dotted #778492;
   color: #778492;
